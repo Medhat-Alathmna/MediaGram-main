@@ -1,0 +1,44 @@
+.masthead-heading {
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.Decrepion{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.postino{
+    position: absolute; left: 32%; top: 25%;
+}
+@media (max-width: 920px) {
+    header{
+        margin-top: 10px !important;    }
+        .postino{
+        left:25%; 
+        }
+    
+}
+@media (max-width: 800px) {
+
+    .postino{
+    left:20%; 
+    }
+
+}
+@media (max-width: 767px) {
+
+        .postino{
+            top: 35%;
+        left:14%; 
+        }
+    
+}
+@media (max-width: 650px) {
+
+    .postino{
+        top: 50%;
+    left:5%; 
+    }
+
+
+}
